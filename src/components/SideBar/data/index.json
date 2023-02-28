@@ -1,0 +1,29 @@
+[
+  {
+    "element": "Overview"
+  },
+  {
+    "element": "Headlines"
+  },
+  {
+    "element": "Contacts"
+  },
+  {
+    "element": "LP"
+  },
+  {
+    "parent": "LP",
+    "element": "Investment appetite"
+  },
+  {
+    "parent": "LP",
+    "element": "Fund commitments"
+  },
+  {
+    "element": "GP"
+  },
+  {
+    "parent": "GP",
+    "element": "Funds managed"
+  }
+]
