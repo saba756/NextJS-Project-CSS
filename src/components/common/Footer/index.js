@@ -132,13 +132,18 @@ export const Footer = () => {
           <div className="brand">
             <h3 className="brand-heading">Our brands</h3>
             <i
-              className="fa-solid fa-chevron-down arrow-icon"
+              className={
+                isOpen
+                  ? "fa-solid fa-chevron-down arrow-icon arrow-transform"
+                  : "fa-solid fa-chevron-down arrow-icon"
+              }
+              // className={ isOpen ? "active" : ""}
               onClick={toggleAccordion}
             ></i>
           </div>
 
           <div className="container">
-             <div className="row resp-data">
+            <div className="row resp-data">
               <div className="footer-col footer-col-1">
                 {brandData.columnOne?.map((data) => {
                   return (

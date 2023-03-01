@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, SideBar, MainContent, Footer, Accordion } from "@/components";
+import { Header, SideBar, MainContent, Footer } from "@/components";
 
 import styles from "@/styles/LayOut.module.css";
 function index() {
@@ -10,7 +10,6 @@ function index() {
         <SideBar />
         <MainContent />
       </main>
-      <Accordion />
       <Footer />
     </>
   );
